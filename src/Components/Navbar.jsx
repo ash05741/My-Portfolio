@@ -23,6 +23,7 @@ const Navbar = () => {
           <a href="#projects" className="text-cyan-100/80 hover:text-cyan-500 transition-all duration-300 ease-out">Projects</a>
           <a href="#contact" className="text-cyan-100/80 hover:text-cyan-500 transition-all duration-300 ease-out">Contact</a>
         </div>
+        <div>ghoda</div>
 
         
         <button
