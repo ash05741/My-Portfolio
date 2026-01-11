@@ -11,7 +11,7 @@ const Navbar = () => {
                 border-b border-white/10">
       <div className="flex justify-between items-center">
         
-        <div className="text-2xl font-bold tracking-wide pl-35">
+        <div className="text-left md:pl-35 text-2xl font-bold tracking-wide ">
           MyPortfolio
         </div>
 
