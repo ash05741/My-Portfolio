@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="flex flex-col items-center justify-center text-center text-white px-6 py-24 md:pt-0 min-h-screen"
+      className="relative z-10 flex flex-col items-center justify-center text-center text-white px-6 py-24 md:pt-0 min-h-screen"
     >
      <motion.img className="w-63 h-42" src={hook} 
      animate={{ y: [0, -15, 0] }}

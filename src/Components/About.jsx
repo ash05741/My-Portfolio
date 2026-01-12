@@ -1,4 +1,5 @@
 import { Code2, Rocket, Users } from "lucide-react";
+import me from "../assets/me.jpg"
 
 const About = () => {
 
@@ -38,11 +39,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-teal-400 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-300" />
+            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-teal-400 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300" />
             <div className="relative">
               <img
+                src={me}
                 alt="Profile"
-                className="w-full h-auto rounded-lg shadow-2xl"
+                className="w-full h-140 rounded-lg shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f]/60 to-transparent rounded-lg" />
             </div>
