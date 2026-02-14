@@ -9,7 +9,6 @@ import Background from "./Components/Background.jsx";
 
 function App() {
   return (
-    <>
     <div className="relative min-h-screen">
         <Background/>
         <Navbar />
@@ -18,16 +17,14 @@ function App() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <HeroSection />
+    <HeroSection />
     </motion.div>
     <About />
     <Skills />
     <Projects/>
     <Footer/>
-      
+      </div>
 
-    </div>
-    </>
   );
 }
 
