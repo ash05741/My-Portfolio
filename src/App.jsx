@@ -10,7 +10,7 @@ import Background from "./Components/Background.jsx";
 function App() {
   return (
     <>
-    <div className="relative min-h-screen bg-black">
+    <div className="relative min-h-screen">
         <Background/>
         <Navbar />
         <motion.div

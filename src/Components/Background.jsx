@@ -1,7 +1,7 @@
 
  const Background = () => {
   return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden">
+    <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
       {/* Deep ocean gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f] via-[#112240] to-[#1a365d]" />
 
